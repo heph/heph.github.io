@@ -22,12 +22,13 @@ title: heph.net
 email: spam@heph.net
 description: >- # this means to ignore newlines until "baseurl:"
   Magic is poorly-documented engineering.
-baseurl: /heph.github.io/
-url: https://heph.net
+url: https://www.heph.net
 github_username: heph
 # Build settings
-theme: minima
-#plugins:
+remote_theme: pages-themes/tactile@v0.2.0
+#theme: minima
+plugins:
+  - jekyll-remote-theme
 #  - jekyll-feed
 
 # Exclude from processing.
