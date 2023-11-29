@@ -21,7 +21,7 @@
 title: heph.net
 email: spam@heph.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Magic (noun [U]): poorly-documented engineering.
+  Magic is poorly-documented engineering.
 baseurl: /heph.github.io/
 url: https://heph.net
 github_username: heph
