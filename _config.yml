@@ -18,19 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: heph.sh
-email: public.email@h3ph.com
+title: heph.net
+email: spam@heph.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Magic is just poorly-documented engineering.
+  Magic (noun [U]): poorly-documented engineering.
 baseurl: /heph.github.io/
-url: https://heph.sh
-twitter_username: jekyllrb
-github_username:  jekyll
-
+url: https://heph.net
+github_username: heph
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,14 +38,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
